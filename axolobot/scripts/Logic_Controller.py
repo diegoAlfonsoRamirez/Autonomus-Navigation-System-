@@ -73,7 +73,7 @@ class Logic_Controller() :
             else :
                 print("NO conditions working")
             
-            print("Esta chingadera no sirve")
+            print("Oops, this didn´t work")
             self.pub.publish(self.vel)
             rate.sleep()
             
